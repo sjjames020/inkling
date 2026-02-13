@@ -115,7 +115,8 @@ const startServer = async () => {
 
     if (isProduction) {
       // On hosted platforms (Railway, Render, etc.) HTTPS is handled externally
-      app.listen(port, () => {
+      // Must bind to 0.0.0.0 so Railway can route traffic to the container
+      app.listen(port, "0.0.0.0", () => {
         console.log(`✓ Inkling server running on port ${port}`);
         console.log(`✓ OCR engine: Claude Vision`);
       });
