@@ -84,6 +84,7 @@ body {
   justify-content: center;
   gap: 0.5rem;
   padding: 2rem 1rem;
+  min-height: 160px;
   border-radius: 20px;
   border: 1px solid var(--border);
   background: var(--surface);
