@@ -1,0 +1,13 @@
+{
+  "name": "inkling",
+  "version": "1.0.0",
+  "description": "Handwritten notes to clean text using Claude Vision",
+  "scripts": {
+    "build": "cd client && npm install && npm run build",
+    "start": "cd server && node server.js",
+    "install:all": "cd client && npm install && cd ../server && npm install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
