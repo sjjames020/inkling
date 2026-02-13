@@ -15,7 +15,9 @@
   box-sizing: border-box;
 }
 
+html,
 body {
+  width: 100%;
   margin: 0;
   padding: 0;
   background: var(--bg);
@@ -40,6 +42,8 @@ body {
   margin-bottom: 3rem;
   width: 100%;
   max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .title {
@@ -62,6 +66,7 @@ body {
 .main-content {
   max-width: 480px;
   width: 100%;
+  margin: 0 auto;
 }
 
 .file-input {
