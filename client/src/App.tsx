@@ -167,7 +167,7 @@ export default function App() {
             <label htmlFor="fileInput" className="action-card upload-card">
               <span className="action-icon">📄</span>
               <span className="action-label">Upload</span>
-              <span className="action-sub">From your photos or files</span>
+              <span className="action-sub">From your gallery</span>
             </label>
             <button type="button" className="action-card scan-card" onClick={startCamera}>
               <span className="action-icon">📷</span>
